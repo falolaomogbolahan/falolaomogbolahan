@@ -13,10 +13,13 @@ h1 { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  color: white;
  text-align: center;}
 
+
  body { 
          color: black;
         font-family: 'Times New Roman', Times, serif;}
+
 main { padding: 0 2em 6em 2em;} 
+
 h2 { color: black;
 margin-bottom: 0;
 padding-left: 0.5em;
@@ -38,7 +41,6 @@ strong { color: rgb(8, 8, 155);
 
 img { display: block;
  max-width: 100%;
- float: right;
  border-radius: 10px;}
 
 footer { display: grid;
