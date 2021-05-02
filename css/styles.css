@@ -11,19 +11,21 @@ header {background-color: rgb(59, 110, 250);
  
 h1 { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  color: white;
- text-align: center;}
+ text-align: center;
+font-size: 32px;}
 
 
  body { 
          color: black;
         font-family: 'Times New Roman', Times, serif;}
 
-main { padding: 0 2em 6em 2em;} 
+main { padding:1em;} 
 
 h2 { color: black;
 margin-bottom: 0;
-padding-left: 0.5em;
-border-bottom: solid 0.8px black;}
+padding-left: 0em;
+border-bottom: solid 0.8px black;
+margin-top: 0em;}
 
 ul a:hover {
  color:red ;}
@@ -41,7 +43,8 @@ strong { color: rgb(8, 8, 155);
 
 img { display: block;
  max-width: 100%;
- border-radius: 10px;}
+ border-radius: 10px;
+margin-bottom: 0em;}
 
 footer { display: grid;
    background-color: lightblue;
@@ -49,7 +52,7 @@ footer { display: grid;
  margin: 0;
  border-radius: 10px;
  text-align: center;}       
-footer p { font-size: 0.8em;
+footer p { font-size: 1em;
      margin: 0 auto;
      justify-content: center;
      justify-items: center;
