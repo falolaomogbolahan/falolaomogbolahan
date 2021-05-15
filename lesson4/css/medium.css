@@ -11,8 +11,9 @@ h2 {font-size: 1.5em;}
 
 .tab { display: flex;
      text-align: center;}
-.tab li {
-      flex: 1 1 100%;}
+.tab li { display: block;
+      flex: 1 1 auto;}
+.tab a { text-align: center;}
 .tab li:first-child { display: none;}
 
 img { align-items: center;

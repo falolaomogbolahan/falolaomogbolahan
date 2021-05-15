@@ -30,20 +30,24 @@ nav { text-align: center;
       background-color: royalblue;
       padding: 1px;
       border-radius: 10px;
-      margin: 10px;
+      margin: 0 auto;
+      max-width: auto;
 }
 .tab {  list-style: none;
         display: block;
-        padding-left: 0;
+        padding: 0;
         }
-.tab li { display: block;
+
+.tab li { display: none;
 }
-.tab li a { color: white;
+.tab a { display: block;
+        color: white;
     text-decoration: none;
     text-align: center;
     padding: 10px;
 }
-.tab li a:hover { background-color: yellow;}
+.tab li a:hover { color: black;
+        background-color: white;}
 .tab li:first-child { display: block;}
 .responsive li { display: block;}
 
