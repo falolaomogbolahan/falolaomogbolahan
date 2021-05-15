@@ -1,0 +1,75 @@
+header { display: block;
+         margin: 0.5em;
+         padding: 10px;
+         align-items: center;
+         justify-content: center;
+         color: white;
+}
+header img { width:auto;
+             height: 90px;
+             padding-right: 10px;
+             align-items: center;
+             }
+.motto { text-align: center;
+         font-size: 0.8em;
+        font-style: italic;}
+
+
+
+h1 { font-family: Georgia, 'Times New Roman', Times, serif;
+     margin: 10px;
+    font-size: 1.4em;
+    text-align: center;
+}
+h2 { font-family: Georgia, 'Times New Roman', Times, serif;
+     margin: 10px;
+     font-size: 1em;}
+
+
+nav { text-align: center;
+      background-color: royalblue;
+      padding: 1px;
+      border-radius: 10px;
+      margin: 10px;
+}
+.tab {  list-style: none;
+        display: block;
+        padding-left: 0;
+        }
+.tab li { display: block;
+}
+.tab li a { color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+.tab li a:hover { background-color: yellow;}
+.tab li:first-child { display: block;}
+.responsive li { display: block;}
+
+
+main { justify-items: center;
+        margin: auto;
+        display: block; 
+        align-items: center;  
+        padding: 1em;
+        max-width: 1000px;
+        background-color: aliceblue;  
+}
+
+body { margin: auto;
+        background-color: lightblue;}
+img { width: 100%;}
+
+
+footer {
+    background-color: blue;
+  padding: .5em;
+  margin: .2em;
+  text-align: center;}       
+footer p { font-size: 1em;
+      margin: auto;
+      justify-content: center;
+      justify-items: center;
+      color: black;
+    text-align: center;}
