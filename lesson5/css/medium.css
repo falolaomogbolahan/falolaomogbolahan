@@ -1,0 +1,23 @@
+@media only screen and (min-width: 32.5em) {
+    header { display: flex;}
+    
+    main { width: 1000px;
+    }
+    
+    
+    h1 { font-size: 2em;}
+    h2 {font-size: 1.5em;}
+    .motto { font-size: 1em;}
+    
+    .tab { display: flex;
+         text-align: center;}
+    .tab li { display: block;
+          flex: 1 1 auto;}
+    .tab a { text-align: center;}
+    .tab li:first-child { display: none;}
+    
+    img { align-items: center;
+    width: 100%;
+    }
+    
+    }
