@@ -1,6 +1,6 @@
 window.onload=function(){
 
-const fav = document.querySelector('#fav');
+const fav = document.querySelector('#favchap');
 const button = document.querySelector('button');
 const output = document.querySelector('.list');
 
@@ -20,6 +20,5 @@ fav.value = '';
 fav.focus;
 }
   });
-
 
 }

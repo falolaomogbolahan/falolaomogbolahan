@@ -52,6 +52,10 @@ padding: 10px;
 .responsive li { display: block;}
 
 
+.tab li a.active { 
+   background-color: darkkhaki;
+}
+
 main { justify-items: center;
    margin: auto;
    display: block; 
@@ -64,10 +68,53 @@ main { justify-items: center;
 body { margin: auto;
    background-color: lightblue;}
 img { width: 100%;}
+.Weathersummary img { height: 100%;}
+
+.Sum {
+   position: sticky;
+   bottom: 50px;
+   left: 2px;
+   background: floralwhite;
+   border: 1px solid #000;
+   padding: 20px;
+   box-shadow: 0 0 10px;
+   opacity: .8;
+   max-width: max-content;
+    }
+
+   .forcast { display: none;}
+
+
+   .contact_div { 
+      border-style: solid;
+      display: grid;
+              grid-template-columns: 1fr;
+             margin: 15px;}
+   .info { 
+      text-align: center;
+    background: none;
+      grid-column: 1;
+      grid-row: 1;
+      margin:auto ;
+         }
+            #map { 
+               border-right-style: outset;
+               grid-column: 1;
+                   grid-row: 2;}
+.social img { 
+            width: 50px;
+            margin: 10px;   }
+
+
+
+
+
+
+
 
 
 footer {
-background-color: blue;
+background-color: royalblue;
 padding: .5em;
 margin: .2em;
 text-align: center;}       
