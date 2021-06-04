@@ -1,0 +1,15 @@
+h1 { 
+     font-size: 2em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;}
+
+body {  align-items: center;
+    }
+picture img { display: block;
+              margin: 10px auto}
+
+picture img [data-src] {  filter: blur(3px);}
+
+img { filter: blur(0px);
+      transition: filter 0.50s;}
+     
