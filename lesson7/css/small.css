@@ -1,0 +1,150 @@
+header { display: block;
+    margin: 0.5em;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+header img { width:auto;
+        height: 90px;
+        padding-right: 10px;
+        align-items: center;
+        }
+.motto { text-align: center;
+    font-size: 0.8em;
+   font-style: italic;}
+
+
+   #announce {
+      display: none;
+      background-color: #ff0000;
+      color: #ffffff;
+      text-align: center;
+      font-size: 1.2em;
+      padding: 5px;
+      font-weight: bold;
+    }
+
+
+    main { display: grid;
+      grid-template-columns: 1fr ;
+      margin: auto;
+      text-align: center; 
+    }
+
+
+figure img [data-src] {  filter: blur(3px);}
+
+figure img { filter: blur(0px);
+transition: filter 0.50s;}
+
+
+figure:hover { box-shadow: none;}
+
+
+
+h1 { font-family: Georgia, 'Times New Roman', Times, serif;
+margin: 10px;
+font-size: 1.4em;
+text-align: center;
+}
+h2 { font-family: Georgia, 'Times New Roman', Times, serif;
+margin: 10px;
+font-size: 1em;}
+
+
+nav { text-align: center;
+ background-color: royalblue;
+ border-radius: 5px;
+ margin: 0 auto;
+ max-width: auto;
+}
+.tab {  list-style: none;
+   display: block;
+   padding: 0;
+   }
+
+.tab li { display: none;
+}
+.tab a { display: block;
+   color: white;
+text-decoration: none;
+text-align: center;
+padding: 10px;
+font-weight: bold;
+margin: 0 auto; 
+}
+.tab li a:hover { color: rgb(219, 46, 46);
+   background-color: whitesmoke;
+   opacity: .5;}
+
+.tab li:first-child { 
+   display: block;}
+.responsive li { display: block;}
+
+.tab a:active { background-color: yellow;}
+
+main { justify-items: center;
+   margin: auto;
+   display: block; 
+   align-items: center;  
+   padding: 1em;
+   max-width: 100%;
+   background-color: aliceblue;  
+}
+
+body { margin: auto;
+   background-color: lightblue;}
+img { width: 100%;}
+.Weathersummary img { height: 100%;}
+
+.Sum {
+   position: sticky;
+   bottom: 50px;
+   left: 2px;
+   background: floralwhite;
+   border: 1px solid #000;
+   padding: 20px;
+   box-shadow: 0 0 10px;
+   opacity: .8;
+   max-width: max-content;
+    }
+
+   .forcast { display: none;}
+
+
+   .contact_div { 
+      border-style: solid;
+      display: grid;
+              grid-template-columns: 1fr;
+             margin: 15px;}
+   .info { 
+      text-align: center;
+    background: none;
+      grid-column: 1;
+      grid-row: 1;
+      margin:auto ;
+         }
+            #map { 
+               border-right-style: outset;
+               grid-column: 1;
+                   grid-row: 2;}
+.social img { 
+            width: 50px;
+            margin: 10px;   }
+
+
+
+
+
+footer {
+background-color: royalblue;
+padding: .5em;
+margin: .2em;
+text-align: center;}       
+footer p { font-size: 1em;
+ margin: auto;
+ justify-content: center;
+ justify-items: center;
+ color: black;
+text-align: center;}
