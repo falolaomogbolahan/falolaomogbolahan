@@ -1,0 +1,65 @@
+@media only screen and (min-width: 32.5em) {
+    header { display: flex;}
+    
+    main { width: 1000px;
+    }
+    
+    
+    h1 { font-size: 2em;}
+    h2 {font-size: 1.5em;}
+    .motto { font-size: 1em;}
+    
+    .tab { display: flex;
+         text-align: center;}
+    .tab li { display: block;
+          flex: 1 1 auto;}
+    .tab a { text-align: center;}
+    .tab li:first-child { display: none;}
+    
+    img { align-items: center;
+    width: 100%;
+    }
+    .Weathersummary img { height: 30em;}
+    
+    .Sum {
+      position: absolute;
+      bottom: 100px;
+      left: 200px;
+      background: floralwhite;
+      border: 1px solid #000;
+      padding: 20px;
+      box-shadow: 0 0 10px;
+      opacity: .6;
+    }
+    
+
+    .forcast {
+            text-align: center;
+      display: block;
+      margin: 50px;}
+
+      .forcast h2 { background-color: cornflowerblue;
+                     margin: auto;}
+#forecastdiv { align-items: center;
+                  image-rendering: pixelated;}
+      #forecastdiv img {width: 10em;}
+      #forecastdiv p { font-size: large;}
+
+      #data { 
+            align-items: center;
+            margin: auto;}
+
+    #article_img { width: 35%;
+                  float: right;
+                  padding-left: 15px;}
+      
+      .contact_div { grid-template-columns: 1fr 1fr;}
+      .info { text-align: center; 
+            grid-column: 2;
+            margin: auto;}
+      #map { grid-column: 1;
+             grid-row: 1;}
+
+
+
+    }
