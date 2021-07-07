@@ -1,0 +1,21 @@
+@media only screen and (min-width: 60em){
+    
+    main { display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            max-width: 1000px;
+          }
+      
+    figure img {width: 100%;
+                height: 200px; }
+    
+    
+    figure:hover { box-shadow: 0 0 20px #000;}
+    
+    
+    
+    
+    
+    
+    
+    }
+    

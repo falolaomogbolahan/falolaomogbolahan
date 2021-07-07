@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storm Center</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css"> 
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div id="announce" style="display: block;"></div>
+    <header>
+      <a href="HomePage/Home.html"> <img src="images/iconfinder_Weather_54069.png" alt="Logo"></a>
+       <div class="head"> 
+           <a href="HomePage/Home.html"><h1>Nouveauinfo.com</h1> </a>
+        <div class="motto">"whatever you want we gat you covered..."</div>
+       </div>
+    </header>
+    <nav>
+        <ul class="tab">
+          <li><a class="ham" href="#">&#9776; Menu </a></li>
+          <li> <a href="HomePage/Home.html">Home</a></li>
+          <li> <a href="Preston/Preston.html">Preston</a></li>
+          <li> <a href="FishHaven/Fish-Haven.html">Fish Haven</a></li>
+          <li> <a href="SodaSprings/Soda-Springs.html">Soda Springs</a></li>
+          <li> <a href="StormCenter/stormcenter.html">Storm Center</a></li>
+          <li> <a href="Gallery/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <h2> Report Weather </h2>
+    <form method="GET" action="thanks.html">
+      <fieldset>
+        <h3>Your Information </h3>
+<label for="name" class="info"> * Full Name: <input type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+          </label><br>
+          
+<label for="mail" class="info"> Email: <input type="email" name="email" placeholder="info@storm.com">
+          </label><br>
+
+<label for="phone" class="info">* Phone: <input type="tel" name="phone" title="Please write 10 numbers or more" placeholder="123-456-7890" required>
+          </label><br>
+
+<label for="zip" class="info">* Zip Code: <input type="number" name="zipcode" required>
+          </label><br>
+</fieldset>
+
+<fieldset>
+        <h3>Storm Information</h3>
+<label for="date" class="storm"> Storm Date: <input type="date" name="storm_date">
+          </label><br>
+
+<label for="type" class="storm"> Storm Type: <input list="storm_type" name="storm_type">
+            <datalist id="storm_type">
+              <option value="Flash Flood"></option>
+              <option value="Hail"></option>
+              <option value="Hurricane"></option>
+              <option value="Thunderstorm"></option>
+              <option value="Tornado"></option>
+            </datalist>
+          </label> <br>
+
+<label class="storm"> Storm Severity: <input type="range" name="storm_severity" min="1" max="10" step="1" value="5" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
+            <span id="ratingvalue">5</span>
+          </label><br>
+
+<label class="storm"> Storm Region: <select name="storm_region" id="storm_region">
+            <option selected disabled>Select Region....</option>
+            <option value="Preston">Preston</option>
+            <option value="Soda_Springs">Soda Springs</option>
+            <option value="Fish_Haven">Fish Haven</option>
+            </select>
+          </label>
+      </fieldset>
+
+      <fieldset>
+        <h3>Additional Information</h3>
+          <div>User in Danger Level:</div>
+            <label class="radios"><input type="radio" name="user_level" value="yes">
+            <span class="option">Yes</span>
+            </label>
+            <label class="radios"><input type="radio" name="user_level" value="maybe">
+            <span class="option">Maybe</span>
+            </label>
+            <label class="radios"><input type="radio" name="user_level" value="no">
+            <span class="option">No</span>
+            </label><br>
+
+    <label class="top">Comments: </label>
+            <textarea name="comments" id="comments">
+            </textarea>
+      </fieldset>
+      <input class="submit_button" type="submit" value="Report Storm">
+    </form>
+</main>
+
+    <footer>
+    <p> 
+        <date></date>
+        &copy;<span id="year"> 2021</span> | Falola S. Omogbolahan | Lagos | <a href="https://www.byui.edu/online">BYUI Online Learning</a> <br> 
+        Last Updated: <span id="date"></span>
+    </p>
+    <script src="js/gallery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({google: {families: ['RobotoSlab', 'NotoSans']}});
+    </script>
+    <a href="index.html">Assignment Menu</a>
+</div>
+
+</footer>
+</body>
+<script src="js/stormcenter.js"></script>
+</html>
