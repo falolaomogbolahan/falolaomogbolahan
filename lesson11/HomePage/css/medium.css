@@ -1,0 +1,151 @@
+@media only screen and (min-width: 600px) {
+    header { display: flex;}
+    
+    
+    h1 { font-size: 2em;}
+    h2 {font-size: 1.5em;}
+    .motto { font-size: 1em;}
+    
+    .tab { display: flex;
+         text-align: center;}
+    .tab li { display: block;
+          flex: 1 1 auto;}
+    .tab a { text-align: center;}
+    .tab li:first-child { display: none;}
+    
+    img { align-items: center;
+    width: 100%;
+    }
+
+    .Weathersummary img { height: 30em;}
+    
+    .Sum {
+      position: absolute;
+      bottom: 100px;
+      left: 200px;
+      background: floralwhite;
+      border: 1px solid #000;
+      padding: 20px;
+      box-shadow: 0 0 10px;
+      opacity: .6;
+    }
+
+
+
+    figure:hover { box-shadow: none;}
+
+    
+
+    .forcast {
+            text-align: center;
+      display: block;
+      margin: 50px;}
+
+      #data { 
+            align-items: center;
+            margin: auto;}
+
+    #article_img { width: 35%;
+                  float: right;
+                  padding-left: 15px;}
+      
+      .contact_div {     grid-template-columns: auto;
+                          width: auto;
+                          justify-content: center;
+                          margin: auto;}
+      #map { grid-column: 1;
+             grid-row: 1;
+             width: 25em;
+            }
+
+      form fieldset {
+            margin-top: 10px;
+            border: 1px solid #05386b;
+            border-radius: 10px;
+            padding: .5rem 2%;
+            text-align: center;
+            align-items: center;
+            margin: 1em 10em 1em 10em;
+          }
+      
+      
+      
+          form input.submit_button {
+            border: none;
+            background-color: royalblue;
+            color:white;
+            font-size: 1.5em;
+            border-radius: 1rem;
+            padding: .75rem 1.5rem;
+            width: 96%;
+            max-width: 20rem;
+            margin: 10px;
+            margin-left: 40%;
+          }
+
+
+
+
+#HeoBanner { display: block;
+
+}
+
+
+          .cards {
+            display: grid;
+            flex-wrap: wrap;
+          }
+        
+          section > div {
+            padding: 1em;
+          
+          }
+        
+          section:nth-child(odd) {
+            display: flex;
+            flex-direction: row-reverse;
+            width: -webkit-fill-available;
+            padding: 0 2em 0 3em;
+          }
+          section:nth-child(even) {
+            display: flex;
+            flex-direction: row;
+            width: -webkit-fill-available;
+            padding: 0 3em 0 3em;
+          }
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      }
