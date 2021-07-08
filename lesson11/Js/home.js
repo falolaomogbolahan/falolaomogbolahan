@@ -64,7 +64,7 @@ fetch(requestURL)
     div.appendChild(p3);
 
 let img = document.createElement('img');
-img.setAttribute('src', `images/${towns.photo}`);
+img.setAttribute('src', `Images/${towns.photo}`);
 img.setAttribute('alt', `${towns.name}`);
 
 
