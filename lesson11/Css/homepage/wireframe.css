@@ -1,0 +1,11 @@
+body { background-color: tomato;
+align-items: center;}
+header { background-color:brown;
+        color: white;
+    text-align: center;}
+
+h2 { text-align: center;
+     color: black;
+    background-color: whitesmoke;}
+
+img { width: auto;}
