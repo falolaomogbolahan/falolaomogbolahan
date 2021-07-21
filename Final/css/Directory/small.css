@@ -1,0 +1,105 @@
+header {  display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+header img {width: 100px;
+     height:100px;
+    padding-right: 10px;
+    align-items: center;
+    image-rendering: pixelated;
+}
+header h1 { margin-bottom: initial;
+            text-align: center;
+            font-weight: bold;
+            font-size: 2.5em;
+            font-family:Georgia, 'Times New Roman', Times, serif;     
+            color: blue;
+}
+footer { align-items: center;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        background-color: green;
+        padding: .5px;
+        border-radius: 5px 5px 5px;
+        font-size: 1em;
+    font-weight: bolder;}
+a { text-decoration: none;}
+#motto {text-align: center;
+         font-size: 1em;
+         font-style: italic;}
+
+nav { text-align: center;
+      background-color: green;
+      padding: .5px;
+      margin: 2px;
+      border-radius: 5px 5px 5px;
+    }
+    .tab { display: block;
+            text-align: center;
+            padding: 0;}
+    .tab a { display: block;
+             color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            }
+.tab li { list-style: none;
+    margin: 5px;
+    display: none;
+    }       
+.tab li a { text-decoration: none;}
+.tab a:hover {background: lightblue;
+              color: black;
+              border-radius: 5px;
+            box-shadow: 5px 5px 5px;
+            font-size: 20px;
+        font-weight: bolder;}
+.tab li:first-child {display: block;
+}
+.responsive li {display: block;
+}
+body {background-color: floralwhite;}
+main { margin: 5px 10px 5px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 5px;
+        display: block;
+      }
+
+
+
+
+
+
+      section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: auto;
+        border: groove;
+        border-radius: 10px;
+        padding: 0.5rem;
+        margin-bottom: 2em;
+      }
+      
+      section > img {
+        width: 250px;
+        height: 200px;
+        box-shadow: 0 0 15px rgb(112, 111, 111);
+        margin-top: 0.55em;
+      }
+
+      .cards h2 { margin: auto;
+        color: black;
+                    }
+      
+      .cards {
+        grid-gap: 1rem;
+        border-radius: 5px;
+        padding: 0.75rem;
+      }

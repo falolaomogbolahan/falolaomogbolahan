@@ -1,0 +1,177 @@
+header {  display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+header img {width: 100px;
+     height:100px;
+    padding-right: 10px;
+    align-items: center;
+    image-rendering: pixelated;
+}
+header h1 { margin-bottom: initial;
+            text-align: center;
+            font-weight: bold;
+            font-size: 2.5em;
+            font-family:Georgia, 'Times New Roman', Times, serif;     
+            color: blue;
+}
+footer { align-items: center;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        background-color: green;
+        padding: .5px;
+        border-radius: 5px 5px 5px;
+        font-size: 1em;
+    font-weight: bolder;}
+a { text-decoration: none;}
+#motto {text-align: center;
+         font-size: 1em;
+         font-style: italic;}
+
+nav { text-align: center;
+      background-color: green;
+      padding: .5px;
+      margin: 2px;
+      border-radius: 5px 5px 5px;
+    }
+    .tab { display: block;
+            text-align: center;
+            padding: 0;}
+    .tab a { display: block;
+             color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            }
+.tab li { list-style: none;
+    margin: 5px;
+    display: none;
+    }       
+.tab li a { text-decoration: none;}
+.tab a:hover {background: lightblue;
+              color: black;
+              border-radius: 5px;
+            box-shadow: 5px 5px 5px;
+            font-size: 20px;
+        font-weight: bolder;}
+.tab li:first-child {display: block;
+}
+.responsive li {display: block;
+}
+#summary {display: flex;}
+#summary img { display: none;
+   width: 100%;
+                height: 500px;}
+body {background-color: floralwhite;}
+main { margin: 5px 10px 5px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 5px;}
+
+ .sum2 {  width: max-content;
+         margin: auto;
+    font-weight: bolder;
+    opacity: .8;
+    padding: 10px;
+    text-align: inherit;
+    position: sticky;
+    border-radius: 7px;
+    box-shadow: 5px 5px 1em rgb(247, 247, 247);
+    top: 200px;
+    left: 255px;
+    background-color: aliceblue;
+      }
+.forcast  { display: none;
+    width: max-content;
+         margin: auto;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 1em rgb(247, 247, 247);
+    top: 200px;
+    left: 550px;
+    background-color: whitesmoke;
+    text-align: center;
+  }
+
+  #forecastdiv img {width: 100px;
+    background-color: steelblue;
+    border-radius: 90px;}
+    .forcast h2 {
+      margin: auto;}
+#forecastdiv p { font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;}
+#forecastdiv span { font-size: large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 500;}
+
+.Events h2 { margin: auto;
+            color: white;
+            background: green;
+            text-align: center;
+          border-radius: 5px;}
+.Events {margin: auto;
+          background-color: whitesmoke;
+        padding: 5px;}
+.Events p { margin: auto;
+            font-weight: bold;}
+
+            .info { 
+              text-align: center;
+            background: none;
+              margin:auto ;
+                 }
+                 .social img { 
+                  width: 40px;
+                  margin: 10px;   }
+
+
+      
+.purpose, .goals {text-align: center;
+                  background: lightblue;
+                  border-radius: 5px;
+                margin: auto;
+               padding: 10px;
+              font-weight: bolder;}
+
+button { background: lightgreen;
+  box-shadow: 5px 5px 5px grey;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;}
+  button a:hover {color: black;
+                  font-size: 20px;}
+  button:hover {  background: white;
+                  color: White;
+                 font-size: 20px;
+                 font-weight: bolder;
+                }
+
+#dangote, #adron, #simi { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    border: 20px solid rgb(143, 142, 142);
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+  .advert img {
+    width: 250px;
+    height: 200px;
+    box-shadow: 0 0 8px rgb(112, 111, 111);
+    margin-top: 0.55em;
+  }
+
+  .advert {
+    grid-gap: 1rem;
+    border-radius: 5px;
+    padding: 0.75rem;
+  }

@@ -1,0 +1,144 @@
+header {  display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+header img {width: 100px;
+     height:100px;
+    padding-right: 10px;
+    align-items: center;
+    image-rendering: pixelated;
+}
+header h1 { margin-bottom: initial;
+            text-align: center;
+            font-weight: bold;
+            font-size: 2.5em;
+            font-family:Georgia, 'Times New Roman', Times, serif;     
+            color: blue;
+}
+footer { align-items: center;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        background-color: green;
+        padding: .5px;
+        border-radius: 5px 5px 5px;
+        font-size: 1em;
+    font-weight: bolder;}
+a { text-decoration: none;}
+#motto {text-align: center;
+         font-size: 1em;
+         font-style: italic;}
+
+nav { text-align: center;
+      background-color: green;
+      padding: .5px;
+      margin: 2px;
+      border-radius: 5px 5px 5px;
+    }
+    .tab { display: block;
+            text-align: center;
+            padding: 0;}
+    .tab a { display: block;
+             color: white;
+            text-decoration: none;
+            text-align: center;
+            padding: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            }
+.tab li { list-style: none;
+    margin: 5px;
+    display: none;
+    }       
+.tab li a { text-decoration: none;}
+.tab a:hover {background: lightblue;
+              color: black;
+              border-radius: 5px;
+            box-shadow: 5px 5px 5px;
+            font-size: 20px;
+        font-weight: bolder;}
+.tab li:first-child {display: block;
+}
+.responsive li {display: block;
+}
+body {background-color: floralwhite;}
+main { margin: 5px 10px 5px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 5px;
+        display: block;}
+        
+        
+        
+        .narate h3 { margin: auto;}
+
+
+
+
+        form fieldset {
+            margin-top: 10px;
+            padding: .5rem 2%;
+            border-bottom-width: thick;
+            text-align: left;
+            align-items: left;
+          }
+          
+          form h3 {
+            color: black;
+            font-size: 1.5em;
+            align-items: left;
+            text-align: left;
+            margin: 0 0 2px; 
+          }
+          
+          form label.top, form label.info, form div {
+            display: block;
+            padding-top: 5px;
+            color: black;
+            text-align: left;
+          }
+          
+          form label.info input:required:valid {
+            border-left: green solid 6px;
+          }
+          
+          form label.top input, form label.info input, form label.storm select {
+            display: block;
+            font-size: 1rem;
+            border-radius: 4px;
+            padding: .5rem;
+            color: black;
+            width: 100%;
+            max-width: 20rem;
+            background-color: white; 
+           }
+          
+
+          form input.contact_button {
+            border: none;
+            color:Blue;
+            font-size: 1.5em;
+            border-radius: 1rem;
+            padding: .75rem 1.5rem;
+            max-width: 10rem;
+            margin: 10px;
+            box-shadow: 0px 0px 20px 0px lightslategrey;
+            cursor: pointer;
+            text-align: center;
+          }
+
+
+          .upper {display: block;}
+
+          .con img { 
+            text-align: center;
+          background: none;
+            margin:auto ;
+            width: 70px;
+               }
+          
+               .board h2 {margin: 10px;
+                          background-color: slateblue;
+                          margin-bottom: auto;}
+                .board ul {margin-top: 3px;}

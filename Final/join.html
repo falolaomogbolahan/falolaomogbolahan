@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <link rel="stylesheet" href="css/join/small.css">
+    <link rel="stylesheet" href="css/join/medium.css">
+    <link rel="stylesheet" href="css/join/large.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+<body>
+<div id="announce" style="display: block;"></div>
+<header>
+    <a href="index.html"> <img src="assests/lologo.png" alt="Logo"></a>
+<div class="heading"> 
+    <a href="index.html"> <h1> Lagos Side</h1></a>
+<div id="motto"> Chamber Of Commerce</div>
+</div>
+</header>
+<nav>
+        <ul class="tab">
+            <li> <a class="ham" href="#">&#9776; Menu </a></li>
+           <li> <a href="index.html">Home</a> </li>
+           <li> <a href="site.html"> City </a></li>
+           <li> <a href="contact.html"> Contact </a> </li>
+            <li> <a href="directory.html"> Directory </a> </li>
+            <li> <a href="join.html"> Join </a> </li>
+        </ul>
+
+
+
+</nav>
+
+<main>
+    <form class="contact">
+        <h3>Contact US </h3>
+        <label for="name" class="info"> * First Name: <input type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+                  </label><br>
+                  <label for="name" class="info"> * Last Name: <input type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+</label>
+<br>
+<label for="title" class="info"> Title: <input type="text" name="title" title="Please enter your title" placeholder="Mr/Miss/Mrs/Sir">
+</label><br>
+        <label for="mail" class="info"> Email: <input type="email" name="email" placeholder="@email.com">
+                  </label><br>
+                <label for="name" class="info"> * Business Name: <input type="text" name="name" title="Please input address" placeholder="Name" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+</label><br>
+        <label for="name" class="info"> Business Address: <input type="name" name="address" title="Please write 10 numbers or more" placeholder="Address" >
+                  </label><br>
+                  <label for="name" class="info"> Business Website: <input type="name" name="website" title="Please write 10 numbers or more" placeholder="Website" >
+                  </label><br>
+                  <label for="name" class="info"> Business Description: <input type="name" name="description" title="Please write 10 numbers or more" placeholder="Description" >
+                  </label><br>
+    <label class="level"> Membership Level Selection: <select name="level_selection" id="level_selection"><br>
+                    <option selected disabled>Annual Fees....</option>
+                    <option value="Non-profit" style="color: black; background-color: silver;">Non-profit ($100)</option>
+                    <option value="Bronze" style="color: black; background-color: brown;" >Bronze ($200)</option>
+                    <option value="Gold" style="color: black; background-color: gold;">Gold ($1000)</option>
+                    </select>
+                  </label> 
+            </fieldset>
+            <br>
+            <input class="join_button" type="submit" value="Join">
+          </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</main>    
+
+
+
+
+
+
+
+
+<footer>
+    <p> 
+        <date></date>
+        &copy;<span id="year"> 2021</span> | Falola S. Gbolahan |<br> 
+        Last Updated: <span id="date"></span>
+    </p>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({google: {families: ['RobotoSlab', 'NotoSans']}});
+    </script>
+</div>
+
+</footer>
+</body>
+<script src="js/index.js"></script>
+</html>

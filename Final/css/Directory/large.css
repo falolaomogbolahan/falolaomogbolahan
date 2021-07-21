@@ -1,0 +1,28 @@
+@media only screen and (min-width: 60em){
+ 
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        flex-flow: row-reverse;
+        width: auto;
+      }
+      .cards > section {
+        flex-wrap: inherit;
+        flex-direction: column;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

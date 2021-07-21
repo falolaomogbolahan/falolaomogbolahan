@@ -1,0 +1,50 @@
+@media only screen and (min-width: 600px) {
+    header { display: flex;}
+
+.tab {display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        padding: initial;
+        border-radius: 5px 5px 5px;}
+.tab li { margin: auto;
+          flex: 1 1 auto;
+          display: block;
+          }
+
+
+.tab li:first-child {display: none;}
+
+
+.cards {
+    display: grid;
+    flex-wrap: wrap;
+  }
+
+  section > div {
+    padding: 1em;
+  
+  }
+
+  section:nth-child(odd) {
+    display: flex;
+    flex-direction: row-reverse;
+    width: -webkit-fill-available;
+    padding: 0 2em 0 3em;
+  }
+  section:nth-child(even) {
+    display: flex;
+    flex-direction: row;
+    width: -webkit-fill-available;
+    padding: 0 3em 0 3em;
+  }
+  
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,19 @@
+@media only screen and (min-width: 60em){
+ 
+    #summary img { display: block;}
+
+    .sum2 { position: absolute;}
+
+
+    .advert { display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,31 @@
+@media only screen and (min-width: 600px) {
+
+    header { display: flex;}
+
+.tab {display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        padding: initial;
+        border-radius: 5px 5px 5px;}
+.tab li { margin: auto;
+          flex: 1 1 auto;
+          display: block;
+          }
+
+
+.tab li:first-child {display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
