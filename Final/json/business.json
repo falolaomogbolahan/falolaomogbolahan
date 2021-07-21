@@ -1,0 +1,86 @@
+{
+	"business": [{
+			"name": "Simis Tombrown",
+			"photo": "logo1.jpg",
+			"website": "simitom.com",
+			"email": "simitom@gmail.com"
+		},
+		{
+			"name": "Alhaji Tanko Petro",
+			"photo": "logo2.jpg",
+			"website": "Alhaji.com",
+			"email": "alhajitank@gmail.com"
+		},
+		{
+			"name": "Dangote Plc",
+			"photo": "logo3.jpg",
+			"website": "dangotecement.com",
+			"email": "simitom@gmail.com"
+		}, {
+			"name": "Macmed Integrated Farms",
+			"photo": "logo4.jpg",
+			"website": "Macmed.com",
+			"email": "macmed@yahoo.com"
+		}, {
+			"name": "Netcom Africa",
+			"photo": "logo5.jpg",
+			"website": "netcomafrica.com",
+			"email": "netcomafrica@gmail.com"
+		}, {
+			"name": "Just Forex",
+			"photo": "logo6.jpg",
+			"website": "jstforex.com",
+			"email": "justforex@gmail.com"
+		}, {
+			"name": "NNT Vulnerability Tracker",
+			"photo": "logo7.jpg",
+			"website": "nntvulne.com",
+			"email": "nntvulnerabilty@yahoo.com"
+		}, {
+			"name": "Sortz Solution",
+			"photo": "logo8.jpg",
+			"website": "sortzsolution.com",
+			"email": "sortzsolution@gmail.com"
+		}, {
+			"name": "Echelonplus Limited",
+			"photo": "logo9.jpg",
+			"website": "echelonplus.com",
+			"email": "echelonplus@gmaill.com"
+		}, {
+			"name": "Cway Nigeria",
+			"photo": "logo10.jpg",
+			"website": "cwaylimited.com",
+			"email": "cway@gmail.com"
+		}, {
+			"name": "Simi's Tombrown",
+			"photo": "logo1.jpg",
+			"website": "27 June 1844",
+			"email": "simitom@gmail.com"
+		}, {
+			"name": "Simi's Tombrown",
+			"photo": "logo1.jpg",
+			"website": "27 June 1844",
+			"email": "simitom@gmail.com"
+		}, {
+			"name": "Simi's Tombrown",
+			"photo": "logo1.jpg",
+			"website": "27 June 1844",
+			"email": "simitom@gmail.com"
+		}, {
+			"name": "Simi's Tombrown",
+			"photo": "logo1.jpg",
+			"website": "27 June 1844",
+			"email": "simitom@gmail.com"
+		}, {
+			"name": "Simi's Tombrown",
+			"photo": "logo1.jpg",
+			"website": "27 June 1844",
+			"email": "simitom@gmail.com"
+		}, {
+			"name": "Simi's Tombrown",
+			"photo": "logo1.jpg",
+			"website": "27 June 1844",
+			"email": "simitom@gmail.com"
+		}
+	]
+}
